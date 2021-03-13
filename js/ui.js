@@ -12,8 +12,8 @@ document.addEventListener('DOMContentLoaded', function () {
 const renderContacts = (data, id) => {
     const html = `<li class="collection-item contact avatar" data-id=${id}>
 
-    Name:<span class="name">${data.name}</span>
-    <p>Phone num:<span class="phone">${data.phone}</span>
+    Name: <span class="name">${data.name}</span>
+    <p>Phone num: <span class="phone">${data.phone}</span>
     </p>
     <div href="#!" class="secondary-content" data-id=${id} style="text-align:right;">
         <i class="material-icons modal-trigger" style="cursor:pointer" href="#edit_contact_modal">edit</i>
